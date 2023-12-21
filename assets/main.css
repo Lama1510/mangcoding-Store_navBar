@@ -227,38 +227,37 @@ color: #545BE8;
 .SELECTED_COURSE{
 
   margin-top: 20px;
-  padding: 50px;
+  padding: 50px 0px 40px 100px;
+
   width: 100%;
   background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
 
 
 }
    .SELECTED_COURSE .container{
-    width: calc((100% - 120px) )  ;
-
     margin: auto;
     display: flex;
   flex-wrap: wrap;
-  padding: 40px;
-  
+  padding: 0px 0px 0px 50px;
+
    }
 
 .SELECTED_COURSE .row{
-  
-  
 
  display: flex;
- 
- gap: 30px;
+ flex-wrap: wrap;
+ gap: 200px;
 
 
 
 }
 
-
+.SELECTED_COURSE .left-side img {
+  width: 100%;
+}
 .SELECTED_COURSE .right-side{
-  width: calc( (100% - 40px) / 2 );
-  padding: 80px;
+  
+  
 display: flex;
 flex-direction: column;
 gap: 20px;
@@ -320,7 +319,10 @@ padding: 40px 50px;
   width: calc( (100% - 30px) / 2 );
   
 }
-
+.Courses .card .row2{
+  display: flex;
+ gap: 20px;
+}
 .Courses .card img {
   width: 100%;
   aspect-ratio: 135.09 / 99.079; /* to be all imegis the same size */
@@ -390,3 +392,90 @@ color: #969696;
   
 
 }
+
+.footer{
+  margin-top: 40px;
+  padding: 90px 20px;
+  background-color: #303030;
+}
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .row {
+display: flex;
+gap: 50px;
+
+}
+.footer .left-side {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer .left-side .logo
+{
+
+
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  
+}
+
+
+.logo img {
+    width: 30px;
+  }
+  .logo a {
+    font-size: 10px;
+    color: #545be8;
+  }
+.footer .left-side .social_logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer .left-side p{
+
+color: #999191;
+font-size: 10px;
+font-weight: 700;
+
+}
+.footer .social_logo img{
+  padding: 9px ;
+  width: 100%;
+   height: 100%;
+    border: 1px #FFFFFF solid;
+    
+}
+
+.footer .right-side {
+ display: flex;
+ flex-wrap: wrap;
+gap: 50px;
+color: white;
+
+}
+
+.footer .right-side .coloum{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  gap: 10px;
+ 
+ 
+ }
+
+ .footer .right-side .list {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #969696;
+ }
