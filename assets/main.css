@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+ .container {
   width: calc(100% - 120px);
   margin: auto;
 }
@@ -17,11 +17,12 @@ ul {
   list-style-type: none;
 }
 body {
+  position: relative;
   font-family: "Poppins", sans-serif;
   height: 6667px;
 }
 header {
-  position: fixed;
+ 
   top: 0;
   width: 100%;
   z-index: 1;
@@ -81,4 +82,311 @@ header .auth .register a{
  color: white;
  background-color: #545be8;
   
+}
+.intro{
+  z-index: 2;
+ margin-top: 20px;
+ padding: 50px;
+ width: 100%;
+ 
+ 
+}
+.intro .container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F5F5F5;
+  ;
+  padding: 80px ;
+ 
+
+}
+.intro .row {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  
+  
+}
+.intro .begins {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+ .begins span:first-child{
+color: #545BE8;
+
+}
+ .intro .register {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+ }
+ .act{
+  color: #545BE8;
+ }
+ .begins h2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap:2px ;
+  font-size: 30px;
+  font-weight: 700px;
+ }
+ .begins p {
+  color: #969696;
+   font-size: 10px;
+   font-weight: 400px;
+ }
+ .begins .register a {
+  color: white;
+  background-color: #545BE8;
+  padding: 5.35px 30px;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  font-size: 15px;
+  align-items: center;
+ }
+ .register .play-video {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ }
+
+
+.services .container{
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px 80px ;
+ 
+
+}
+
+.services .row {
+
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+ .services .left-side {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+
+ }
+.left-side span:first-child{
+  color: #545BE8;
+  
+  }
+  .left-side p {
+    color: #969696;
+     font-size: 10px;
+     font-weight: 400px;
+   }
+
+   .services .cards {
+    display: flex;
+    gap: 40px ;
+    
+
+    
+  
+   }
+   .cards .cards-items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #545BE8;
+    padding: 40px 10px  ;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    color: white;
+   }
+   .cards .cards-items img {
+    width: 40px;
+    height:40px ;
+    border-radius: 50%;
+    background-color: white;
+
+   }
+   .right-side p {
+    color: #DDDDDD; 
+    font-size: 10px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+   
+   }
+   .right-side h3 {
+    font-size: 15px; 
+    font-weight: 700;
+   }
+.SELECTED_COURSE{
+
+  margin-top: 20px;
+  padding: 50px;
+  width: 100%;
+  background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
+
+
+}
+   .SELECTED_COURSE .container{
+    width: calc((100% - 120px) )  ;
+
+    margin: auto;
+    display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  
+   }
+
+.SELECTED_COURSE .row{
+  
+  
+
+ display: flex;
+ 
+ gap: 30px;
+
+
+
+}
+
+
+.SELECTED_COURSE .right-side{
+  width: calc( (100% - 40px) / 2 );
+  padding: 80px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+flex-wrap: wrap;
+
+}
+.SELECTED_COURSE  span:first-child {
+ 
+color: #F0C932;
+ font-size:20px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+}
+.SELECTED_COURSE span:last-child{
+ 
+color: #DDDDDD;
+ font-size: 15px;
+ font-family: Inter;
+ font-weight: 400;
+ word-wrap: break-word
+}
+.SELECTED_COURSE .feedback{
+  display: flex;
+  justify-content: space-between;
+}
+.SELECTED_COURSE .review{
+  display: flex;
+  flex-direction: column;
+}
+.Courses{
+  
+  margin-top:40px;
+}
+
+.Courses .container {
+  display: flex;
+flex-wrap: wrap;
+padding: 40px 50px;
+}
+.Courses .row{
+
+  display: flex;
+  gap: 80px;
+  
+}
+
+.Courses .left-side {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+  
+
+}
+
+.Courses .card {
+  width: calc( (100% - 30px) / 2 );
+  
+}
+
+.Courses .card img {
+  width: 100%;
+  aspect-ratio: 135.09 / 99.079; /* to be all imegis the same size */
+  object-fit: contain; /* how image show */
+filter: brightness(70%);
+display: flex; /*  to remove the spaces */
+}
+
+.Courses .corse-info {
+
+  position: relative;
+  
+
+}
+.Courses .card .price {
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Courses .price span:last-child{
+  align-self: flex-end;
+}
+
+
+.Courses .right-side {
+   display: flex;
+   flex-direction: column;
+   gap: 20px ;
+
+}
+
+.Courses .right-side span {
+color: #545BE8;
+ font-size: 15px;
+ font-weight: 400;
+ word-wrap: break-word ;
+}
+
+.Courses .right-side p {
+
+color: #969696;
+ font-size: 15px;
+ font-family: Poppins;
+ font-weight: 400;
+ word-wrap: break-word
+}
+
+.Courses .see-all a {
+  background-color: #545BE8;
+  
+  color: white;
+  padding: 5.35px 30px ;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+
+
+  
+
 }
